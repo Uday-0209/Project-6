@@ -7,3 +7,5 @@ Methodology for the Above Project:
 2) Initially, the model was developed using training data, which falls into two categories: 'Good' and 'Bad.' The 'Good' data was acquired when the system was in ideal running condition, while the 'Bad' data was collected when the ball screw was dented. The vibration data was plotted in STFT format, and the corresponding STFT images were saved. These images were then used to develop the CNN classification model.
 3) In real-time, the acquired data will be plotted as STFT and fed into the model for prediction. The model will predict the condition of the ball screw as either good or bad.
 4) The system acquires data and checks the system condition every 2 minutes.
+
+Here we developed the model for both the testrig and Spindle set-up.The below images are the frontend and backend of the labview program.
